@@ -1,0 +1,22 @@
+            
+            Escape Sequence used in Python Programming Language
+
+
+Escape Sequence	          Description
+
+\\	                      Backslash (\)
+\'	                      Single quote (')
+\"	                      Double quote (")
+\n	                      Newline (line break)
+\r	                      Carriage return
+\t	                      Horizontal tab
+\b	                      Backspace
+\f	                      Form feed
+\v	                      Vertical tab
+\a	                      Bell/alert (may not work on all systems)
+\0	                      Null character
+\N{name}	              Unicode character by its name (e.g., \N{GREEK SMALL LETTER PI} → π)
+\uXXXX	                  Unicode character with 16-bit hex value (e.g., \u03A9 → Ω)
+\UXXXXXXXX	              Unicode character with 32-bit hex value
+\xhh	                  Character with hex value (e.g., \x41 → A)
+\ooo	                  Character with octal value (e.g., \101 → A)

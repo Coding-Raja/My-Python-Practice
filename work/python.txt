@@ -20,3 +20,18 @@ Escape Sequence	          Description
 \UXXXXXXXX	              Unicode character with 32-bit hex value
 \xhh	                  Character with hex value (e.g., \x41 → A)
 \ooo	                  Character with octal value (e.g., \101 → A)
+
+------------------------------------------------------------------------------------------------
+
+                  Selection(Conditional) Statements in Python
+
+In python we don't need to write condition in (), we just write the condition and add colon " : "
+after the condition to further proceed.
+In python we use " elif " for "else-if".
+
+Example:    if a == 10:
+                print("Value is : ", a)
+            elif a == 5:
+                print("Value is : ", a)
+            else:
+                print("Value is : ", b)        

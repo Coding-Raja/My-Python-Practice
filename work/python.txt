@@ -35,3 +35,11 @@ Example:    if a == 10:
                 print("Value is : ", a)
             else:
                 print("Value is : ", b)        
+
+-------------------------------------------------------------------------------------------------
+
+ --------------------- Match Statement in Python -----------------------
+
+ In python we use match statement to compare values just like we use switch statement in C++.
+ We use match keyword just before the variable that we are comparing, we use cases, and " case _ "
+ for defalult execution if the value of variable doesn't match with the case value.

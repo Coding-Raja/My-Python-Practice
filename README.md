@@ -19,7 +19,8 @@ In this repo, you’ll find all the important **concepts of Python** explained w
 
 ## 🎯 Purpose
 The goal of this repo is to **learn Python by practicing**.  
-Each topic is explained with **simple code examples** so that it’s easier to understand and use.  
+Each topic is explained with **simple code examples** so that it’s easier to understand and use.
+You can see the documentation/explanation of code in the "python.txt" file.  
 
 ---
 

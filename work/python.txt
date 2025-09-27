@@ -43,3 +43,11 @@ Example:    if a == 10:
  In python we use match statement to compare values just like we use switch statement in C++.
  We use match keyword just before the variable that we are comparing, we use cases, and " case _ "
  for defalult execution if the value of variable doesn't match with the case value.
+ 
+-------------------------------------------------------------------------------------------------
+
+ --------------------- For Loop in Python -----------------------
+
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, 
+a set, or a string).To loop through a set of code a specified number of times, we can use the 
+range() function. You can see the example in the 'practice.py" file.

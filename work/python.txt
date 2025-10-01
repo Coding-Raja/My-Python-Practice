@@ -51,3 +51,11 @@ Example:    if a == 10:
 A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, 
 a set, or a string).To loop through a set of code a specified number of times, we can use the 
 range() function. You can see the example in the 'practice.py" file.
+
+-------------------------------------------------------------------------------------------------
+
+--------------------- break and continue statements in Python -----------------------
+
+With the "break" statement we can stop the loop before it has looped through all the items.
+With the "continue" statement we can stop the current iteration of the loop, and continue with 
+the next, in simple words we just skip them.

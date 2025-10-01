@@ -1,19 +1,15 @@
-#-----------------------------------------------------------------------------
+#----------------- break statement --------------
 
-# ----------- For Loop in Python -----------
-
-x = int(input("\nEnter a number to run the loop : "))
-
-for i in range(x):
-    print(i)
-
-#----------- For loop in lists-------------
-
-animal = ["lion", "tiger", "horse", "cat", "dog"]
+animal = ["Lion", "Tiger", "Cat", "Dog", "Horse"]
 for x in animal:
-    print(x)     
-
-#----------- For loop in string -----------
-
-for x in "tiger":
     print(x)
+    if x == "Cat":
+        break
+
+#----------------- continue statement --------------
+
+fruit = ["Mango", "Apple", "Orange", "Banana"]
+for x in fruit:
+    if x == "Orange":
+        continue
+    print(x)    

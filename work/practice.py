@@ -12,3 +12,8 @@ for i in range(x):
 animal = ["lion", "tiger", "horse", "cat", "dog"]
 for x in animal:
     print(x)     
+
+#----------- For loop in string -----------
+
+for x in "tiger":
+    print(x)

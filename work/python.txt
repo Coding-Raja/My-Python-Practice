@@ -59,3 +59,8 @@ range() function. You can see the example in the 'practice.py" file.
 With the "break" statement we can stop the loop before it has looped through all the items.
 With the "continue" statement we can stop the current iteration of the loop, and continue with 
 the next, in simple words we just skip them.
+
+-------------------------------------------------------------------------------------------------
+------------------------ While Loop in Python --------------------------
+
+With the while loop we can execute a set of statements as long as a condition is true.

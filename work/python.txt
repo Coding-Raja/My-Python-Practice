@@ -94,16 +94,17 @@ Decorators are a way to modify or enhance functions without changing their actua
 functions to add new functionality.
 Example:
 
-                            def changecase(func):
-                              def myinner():
-                                return func().upper()
-                              return myinner
+            def changecase(func):                What happens when you call myfunction():
 
-                            @changecase
-                            def myfunction():
-                              return "Hello Sally"
+                def myinner():                   The decorator has replaced myfunction with myinner
+                return func().upper()            When you call myfunction(), you're actually calling myinner()
+                return myinner                   myinner() calls the original myfunction() and applies .upper()
 
-                            print(myfunction())
+            @changecase
+            def myfunction():
+                return "Hello Sally"
+
+            print(myfunction())
 
 You can name the inner function whatever you want. The name myinner() is arbitrary and can be changed to anything 
 that follows Python's naming rules.

@@ -1,5 +1,5 @@
-            
-            Escape Sequence used in Python Programming Language
+------------------------------------------------------------------------------------------
+---------------------Escape Sequence used in Python Programming Language---------------
 
 
 Escape Sequence	          Description
@@ -86,3 +86,24 @@ just separate them with a comma.
                    my_function("Emil")
                    my_function("Raja")
                    my_function("Coding-Raja")
+
+----------------------------------------------------------------------------------------------------------
+------------------------------- Decorators in Python -----------------------------
+
+Decorators are a way to modify or enhance functions without changing their actual code. They "wrap" existing 
+functions to add new functionality.
+Example:
+
+                            def changecase(func):
+                              def myinner():
+                                return func().upper()
+                              return myinner
+
+                            @changecase
+                            def myfunction():
+                              return "Hello Sally"
+
+                            print(myfunction())
+
+You can name the inner function whatever you want. The name myinner() is arbitrary and can be changed to anything 
+that follows Python's naming rules.

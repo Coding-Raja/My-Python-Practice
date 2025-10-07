@@ -1,18 +1,12 @@
 #-----------------------------------------------------------------------
 #------------------ Decorators in Python --------------------------------
-
 def changecase(func):
-  def myinner():
-    return func().upper()
+  def myinner(x):
+    return func(x).upper()
   return myinner
 
 @changecase
-def myfunction():
-  return "Hello Sally"
+def myfunction(nam):
+  return "\nHello " + nam
 
-@changecase
-def otherfunction():
-  return "I am speed!"
-
-print(myfunction())
-print(otherfunction())
+print(myfunction("Raja"))

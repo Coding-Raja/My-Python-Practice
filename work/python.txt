@@ -107,4 +107,4 @@ Example:
             print(myfunction())
 
 You can name the inner function whatever you want. The name myinner() is arbitrary and can be changed to anything 
-that follows Python's naming rules.
+that follows Python's naming rules. You can pass arguments in decorated functions.

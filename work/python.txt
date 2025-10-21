@@ -124,3 +124,8 @@ Python does not have built-in support for Arrays, but 'Python Lists' can be used
 
 Example:     cars = ["Ford", "Volvo", "BMW"]
 
+-----------------------------------------------------------------------------------------------------
+--------------------- Python Dates ----------------------
+A date in Python is not a data type of its own, but we can import a module named datetime to work 
+with dates as date objects. See the program:
+

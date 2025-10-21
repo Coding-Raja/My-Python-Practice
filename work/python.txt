@@ -117,3 +117,10 @@ By default, a function must be called with the correct number of arguments.
 However, sometimes you may not know how many arguments that will be passed into your function.
 *args and **kwargs allow functions to accept a unknown number of arguments. See the program in 'practice.py' file.
 
+-----------------------------------------------------------------------------------------------------
+--------------------- Python Arrays ----------------------
+Arrays are used to store multiple values in one single variable.
+Python does not have built-in support for Arrays, but 'Python Lists' can be used instead.
+
+Example:     cars = ["Ford", "Volvo", "BMW"]
+
